@@ -1,0 +1,30 @@
+{
+  "name": "nagios-beanstalk",
+  "version": "1.0.0",
+  "description": "Simple node binary for nagios to check health of beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyharvs/nagios-beanstalk.git"
+  },
+  "keywords": [
+    "nagios",
+    "beanstalk",
+    "aws",
+    "elastic",
+    "plugin"
+  ],
+  "author": "Harvard Young <harvard.young@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyharvs/nagios-beanstalk/issues"
+  },
+  "homepage": "https://github.com/heyharvs/nagios-beanstalk#readme",
+  "dependencies": {
+    "aws-sdk": "^2.6.4",
+    "bluebird": "^3.4.6"
+  }
+}
